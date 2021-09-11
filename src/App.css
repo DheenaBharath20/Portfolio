@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+
+  font-family: "Lato", sans-serif;
+
+}
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +44,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+nav{
+  z-index: 2;
+}
+
+.logo {
+    width : 12.25rem;
+}
+
+nav a.nav-link {
+
+  font-weight: 200;
+  letter-spacing: .0375rem;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+
+.navbar-nav > li > a {
+
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color : #fff !important;
+  font-size: small;
+  border-top: 0.1875rem;
+
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus  {
+
+  border-top: 0.1875rem solid orange;
+}
+.navbar-brand {
+
+  max-width: 17.25rem;
+}
+
+.header-wrapper {
+  position:relative;
+  background: url(wall.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  padding-top: 5%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.main-info h2 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.typing-text {
+
+  color: white;
+  font-size: medium;
+
+}
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+
 }
