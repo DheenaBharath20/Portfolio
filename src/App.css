@@ -125,3 +125,36 @@ nav a.nav-link {
   z-index: 1;
 
 }
+
+footer {
+  background-color:  #282c34;
+  color: white;
+  font-family: "Lato",sans-serif;
+}
+
+footer ul > li > a {
+
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color : #fff !important;
+  font-size: small;
+  border-top: 0.1875rem;
+  text-decoration: none;
+  
+}
+
+footer ul > li > a.active, footer ul > li > a:focus{
+
+    border-top: 0.2875rem solid orange;
+  }
+
+
+
+footer a.nav-link {
+
+    font-weight: 200;
+    letter-spacing: .0275rem;
+    cursor: pointer;
+    text-transform: uppercase;
+  
+  }
